@@ -1,0 +1,13 @@
+<html>
+  <head>
+       <script type="text/javascript"
+               src="PowerPointJava.js">
+       </script>
+       <title> Exercise 2: PowerPoint </title>
+  </head>
+  <body>
+      <img src = "https://cdn.pixabay.com/photo/2015/04/04/19/13/one-706897_960_720.jpg" id="Pictureloc" height="300" width="500" > <br>
+      <button type = "button" onclick= "lastPicture()">previous</button>
+      <button type = "button" onclick= "nextPicture()">next</button>
+  </body>
+</html>
