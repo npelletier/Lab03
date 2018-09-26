@@ -1,7 +1,31 @@
 h1{
-  color: blue;
-  background-color: yellow;
+  background-color: black;
+  color: white;
 }
+
 body{
-  background-color: red;
+  background-color: brown;
+  color: green;
+  font-family: arial;
+  font-size: 20pt;
+}
+
+p{
+  background-color: white;
+  color: black;
+  font-family: Cursive;
+  font-size: 22pt;
+}
+
+p.webs{
+  color: green;
+}
+
+p.webs:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p2{
+  background-color: black;
 }
