@@ -1,0 +1,9 @@
+#SampleText{
+  border: solid blue;
+  border-width: thick;
+  background-color: black;
+  color: white;
+}
+p{
+  color: white;
+}

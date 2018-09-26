@@ -1,5 +1,6 @@
 <html>
   <head>
+      <link href="c.css" el="stylesheet" type="text/css">
        <script type="text/javascript"
                src="ColorSiteJava.js">
        </script>
@@ -7,17 +8,17 @@
   </head>
   <body>
       testing the body <br><br>
-      <p1 id="SampleText"> This is some sample text to test if it works </p1> <br><br>
+      <div id="SampleText"> This is some sample text to test if it works </div> <br><br>
       Background (Numbers 0-255):<br>
       Red: <input type = "number" min="0" max="255" id = "RedBackground"><br>
       Blue: <input type = "number" min="0" max="255" id = "BlueBackground"><br>
       Green: <input type = "number" min="0" max="255" id = "GreenBackground"><br>
-      <button type = "button" onclick= changeBackground()>Change Background</button> <br><br>
+      <button type = "button" onclick= "changeBackground()">Change Background</button> <br><br>
       Boarder (Numbers 0-255):<br>
       Red: <input type = "number" min="0" max="255" id = "RedBoarder"><br>
       Blue: <input type = "number" min="0" max="255" id = "BlueBoarder"><br>
       Green: <input type = "number" min="0" max="255" id = "GreenBoarder"><br>
-      Width: <input type = "number" min="0" max="255" id = "WidthBoarder"><br>
-      <button type = "button" onclick= changeBorder>Change Border</button><br>
+      Width: <input type = "text" id = "WidthBoarder"><br>
+      <button type = "button" onclick= "changeBorder()">Change Border</button><br>
   </body>
 </html>

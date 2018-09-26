@@ -1,13 +1,25 @@
-// let sampleText = docuement.getElementById("SampleText");
+"use strict";
 function changeBorder()
 {
-  document.body.style.border = "blue";
+  let redB = document.getElementById("RedBoarder").value;
+  let blueB = document.getElementById("BlueBoarder").value;
+  let greenB = document.getElementById("GreenBoarder").value;
+  let colorB = "rgb("+String(redB)+", "+String(greenB)+","+String(blueB)+")";
+  alert(colorB);
+  let width = document.getElementById("WidthBoarder").value;
+  //document.body.style.backgroundColor = "red";
+  document.getElementById("SampleText").style.borderColor = colorB;
+  document.getElementById("SampleText").style.borderWidth = colorB;
+  //document.body.style.backgroundColor = color;
 }
 
 function changeBackground()
 {
-  var color = rgb(document.getElementById("RedBackground").value, document.getElementById("BlueBackground").value, document.getElementById("GreenBackground").value);
+  let red = document.getElementById("RedBackground").value;
+  let blue = document.getElementById("BlueBackground").value;
+  let green = document.getElementById("GreenBackground").value;
+  let color = "rgb("+String(red)+", "+String(green)+","+String(blue)+")";
   //document.body.style.backgroundColor = "red";
-  //docuement.getElementById("SampleText").style.backgroundColor = "red";
-  document.body.style.backgroundColor = color;
+  document.getElementById("SampleText").style.backgroundColor = color;
+  //document.body.style.backgroundColor = color;
 }
