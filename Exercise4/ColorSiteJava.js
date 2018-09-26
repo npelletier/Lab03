@@ -5,7 +5,6 @@ function changeBorder()
   let blueB = document.getElementById("BlueBoarder").value;
   let greenB = document.getElementById("GreenBoarder").value;
   let colorB = "rgb("+String(redB)+", "+String(greenB)+","+String(blueB)+")";
-  alert(colorB);
   let width = document.getElementById("WidthBoarder").value;
   //document.body.style.backgroundColor = "red";
   document.getElementById("SampleText").style.borderColor = colorB;
